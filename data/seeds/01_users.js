@@ -15,7 +15,7 @@ exports.seed = function(knex) {
                 {
                     username: 'Jill',
                     password: bcrypt.hashSync('456', 12),
-                    department: 'legal',
+                    department: 'test',
                 },
                 {
                     username: 'Greg',
